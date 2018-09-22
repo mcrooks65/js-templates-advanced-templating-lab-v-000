@@ -58,6 +58,8 @@ function handlebarsSetup() {
 }
 
 function init() {
+  handlebarsSetup()
+  initForm()
   //put any page initialization/handlebars initialization here
 }
 document.addEventListener("DOMContentLoaded", function(event) {
